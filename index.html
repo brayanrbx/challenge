@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trivia</title>
+<!--* Estilos google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+    <div class="contenedor">
+        <!--* Contenido principal -->
+            <main class="main">
+                <section class="card" id="card">
+                    <header class="card__title">
+                        <h1 class="card__title-h1">Categoría</h1>
+                        <p class="card__texto-categoria" id="category">Nombre de la categoría</p>
+                        <p class="card__lvl" id="round">Ronda 1</p>
+                        <div class="acumulados">
+                            <p>Puntos acumulados</p>
+                            <p id="score">x puntos</p>
+                        </div>
+                        <hr>
+                    </header>
+                    <article class="card__body" id="card__body">
+                        <h2 class="card__title-h2" id="question">Pregunta</h2>
+                        <hr>
+                        <div id="choice">
+                        </div>
+                        <button class="card__btn" id="salir">Salir</button>
+                    </article>
+            </main>
+    </div>
+
+    <script src="./js/app.js" type="module"></script>
+</body>
+</html>
